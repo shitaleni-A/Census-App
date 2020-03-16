@@ -1,0 +1,33 @@
+﻿[FormFile]
+Version=CSPro 7.3
+Name=INDIVIDUAL_FF
+Label=Individual
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=OperatorControlled
+  
+[Dictionaries]
+File=.\Individual.dcf
+  
+[Form]
+Name=FORM000
+Label=Individual Level
+Level=1
+Size=0,0
+  
+  
+[EndForm]
+  
+[Level]
+Name=INDIVIDUAL_LEVEL
+Label=Individual Level
+  
+[Group]
+Required=Yes
+Name=INDIVIDUAL_LEVEL_FORM
+Label=Individual Level
+Form=1
+LogicControl=No
+Max=1
+[EndGroup]
+  

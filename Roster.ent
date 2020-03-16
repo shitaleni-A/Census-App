@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=ROSTER
+Name=
+AppType=DataEntry
+[AppCode]
+File=.\Roster.ent.apc
+[Message]
+File=.\Roster.ent.mgf
+[Help]
+File=.\Roster.ent.qsf
+[Forms]
+File=.\Roster.fmf

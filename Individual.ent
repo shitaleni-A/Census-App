@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=INDIVIDUAL
+Name=
+AppType=DataEntry
+[AppCode]
+File=.\Individual.ent.apc
+[Message]
+File=.\Individual.ent.mgf
+[Help]
+File=.\Individual.ent.qsf
+[Forms]
+File=.\Individual.fmf

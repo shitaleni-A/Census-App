@@ -1,0 +1,27 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=Roster
+Name=ROSTER_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Roster Level
+Name=ROSTER_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Roster Identification
+Name=ROSTER_ID
+Start=2
+Len=1
+
+[Record]
+Label=Roster Record
+Name=ROSTER_REC
+RecordTypeValue='1'
+RecordLen=1

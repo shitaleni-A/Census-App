@@ -1,0 +1,33 @@
+﻿[FormFile]
+Version=CSPro 7.3
+Name=ROSTER_FF
+Label=Roster
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=OperatorControlled
+  
+[Dictionaries]
+File=.\Roster.dcf
+  
+[Form]
+Name=FORM000
+Label=Roster Level
+Level=1
+Size=0,0
+  
+  
+[EndForm]
+  
+[Level]
+Name=ROSTER_LEVEL
+Label=Roster Level
+  
+[Group]
+Required=Yes
+Name=ROSTER_LEVEL_FORM
+Label=Roster Level
+Form=1
+LogicControl=No
+Max=1
+[EndGroup]
+  

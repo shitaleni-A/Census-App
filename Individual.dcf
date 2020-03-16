@@ -1,0 +1,27 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=Individual
+Name=INDIVIDUAL_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Individual Level
+Name=INDIVIDUAL_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Individual Identification
+Name=INDIVIDUAL_ID
+Start=2
+Len=1
+
+[Record]
+Label=Individual Record
+Name=INDIVIDUAL_REC
+RecordTypeValue='1'
+RecordLen=1

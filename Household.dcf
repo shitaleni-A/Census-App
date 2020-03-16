@@ -1,0 +1,27 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=Household
+Name=HOUSEHOLD_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Household Level
+Name=HOUSEHOLD_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Household Identification
+Name=HOUSEHOLD_ID
+Start=2
+Len=1
+
+[Record]
+Label=Household Record
+Name=HOUSEHOLD_REC
+RecordTypeValue='1'
+RecordLen=1
