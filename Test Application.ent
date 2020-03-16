@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=TEST_APPLICATION
+Name=
+AppType=DataEntry
+[AppCode]
+File=.\Test Application.ent.apc
+[Message]
+File=.\Test Application.ent.mgf
+[Help]
+File=.\Test Application.ent.qsf
+[Forms]
+File=.\Test Application.fmf
