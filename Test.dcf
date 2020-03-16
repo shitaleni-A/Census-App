@@ -20,8 +20,20 @@ Name=TEST_ID
 Start=2
 Len=1
 
+[Item]
+Label=Mandla
+Name=MANDLA
+Start=3
+Len=1
+
 [Record]
 Label=Test Record
 Name=TEST_REC
 RecordTypeValue='1'
-RecordLen=1
+RecordLen=3
+
+[Record]
+Label=Mandla
+Name=MANDLA1
+RecordTypeValue='2'
+RecordLen=3
