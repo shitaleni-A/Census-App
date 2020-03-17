@@ -24,4 +24,10 @@ Len=1
 Label=Individual Record
 Name=INDIVIDUAL_REC
 RecordTypeValue='1'
-RecordLen=1
+RecordLen=2
+
+[Record]
+Label=Gideon
+Name=GIDEON
+RecordTypeValue='2'
+RecordLen=2
