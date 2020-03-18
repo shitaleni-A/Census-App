@@ -322,14 +322,14 @@ Value=5;No
 Value=9;Don't know
 
 [Item]
-Label=B12_A_Namibian Identification Card (ID) 
+Label=B12_A_Namibian Identification Card (ID)
 Name=NAMIBIAN_ID
 Start=14
 Len=1
 ZeroFill=Yes
 
 [ValueSet]
-Label=B12_A_Namibian Identification Card (ID) 
+Label=B12_A_Namibian Identification Card (ID)
 Name=NAMIBIAN_ID_VS1
 Value=1;Yes
 Value=2;No
@@ -1029,8 +1029,8 @@ Value=407;Linyanti
 Value=408;Sibbinda
 
 [Record]
-Label=ORPHAN_HOOD_GRANTS
-Name=ORPHAN_HOOD_GRANTS
+Label=ORPHAN_HOOD_GRANTS_REC
+Name=ORPHAN_HOOD_GRANTS_REC
 RecordTypeValue='B'
 RecordLen=16
 
@@ -1099,8 +1099,8 @@ Value='J          ';None
 Value='K          ';Don't know
 
 [Record]
-Label=DISABILITY
-Name=DISABILITY
+Label=DISABILITY_REC
+Name=DISABILITY_REC
 RecordTypeValue='C'
 RecordLen=9
 
@@ -1215,8 +1215,8 @@ Value=2;No
 Value=9;Don't know
 
 [Record]
-Label=ICT
-Name=ICT
+Label=ICT_REC
+Name=ICT_REC
 RecordTypeValue='D'
 RecordLen=25
 
@@ -1269,13 +1269,13 @@ Value=3;Smart phone
 Value=9;Don’t know
 
 [Item]
-Label=B25_A_Use Any ICT Platform 
+Label=B25_A_Use Any ICT Platform
 Name=USE_ICT_PLATFORMS
 Start=15
 Len=1
 
 [ValueSet]
-Label=B25_A_Use Any ICT Platform 
+Label=B25_A_Use Any ICT Platform
 Name=USE_ICT_PLATFORMS_VS1
 Value=1;Yes
 Value=2;No
@@ -1302,8 +1302,8 @@ Value='H         ';Mobile Apps (e.g. NBC,NSA, Namibian Newspaper, etc.)
 Value='I         ';Don’t know
 
 [Record]
-Label=SPORTS ACTIVITIES
-Name=SPORTS_ACTIVITIES
+Label=SPORTS ACTIVITIES_REC
+Name=SPORTS_ACTIVITIES_REC
 RecordTypeValue='E'
 RecordLen=4
 
