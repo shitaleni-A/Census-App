@@ -21,6 +21,7 @@ Start=2
 Len=1
 
 [Record]
+<<<<<<< HEAD
 Label=Housing Characteristics
 Name=DWELLING_REC
 RecordTypeValue='H'
@@ -473,3 +474,140 @@ Name=PURPOSE_PRODUCTION
 Start=366
 Len=1
 ZeroFill=Yes
+=======
+Label=Household Record
+Name=HOUSEHOLD_REC
+RecordTypeValue='1'
+RecordLen=2
+
+[Record]
+Label=Mortality
+Name=MORTALITY
+RecordTypeValue='2'
+MaxRecords=20
+RecordLen=114
+
+[Item]
+Label=Death that occurred in the household for the past 12 month
+Name=DEATH_OCCURED
+Start=3
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Death that occurred in the household for the past 12 month
+Name=DEATH_OCCURED_VS1
+Value=0:20;Valid Range
+
+[Item]
+Label=Name of the household member that passed on
+Name=DECEASED_NAME
+Start=5
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Sex of the household member that died
+Name=DECEASED_SEX
+Start=105
+Len=1
+
+[ValueSet]
+Label=Sex of the household member that died
+Name=DECEASED_SEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Age of the deceased when he/she passed on
+Name=DECEASED_AGE
+Start=106
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Age of the deceased when he/she passed on
+Name=DECEASED_AGE_VS1
+Value=0:120;Valid Range
+
+[Item]
+Label=Registration of the Death that occurred
+Name=DEATH_REGISTRATION
+Start=109
+Len=1
+
+[ValueSet]
+Label=Registration of the Death that occurred
+Name=DEATH_REGISTRATION_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=The cause of Death that occurred
+Name=CAUSE_OF_DEATH
+Start=110
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=The cause of Death that occurred
+Name=CAUSE_OF_DEATH_VS2
+Value=1;Cancer
+Value=2;Pregnancy related
+Value=3;Diabetes  (High/low Blood Sugar)
+Value=4;Heart Disease
+Value=5;Hypertension/High blood pressure (Stroke)
+Value=6;Lung Disease
+Value=7;Vomiting/diarrhea
+Value=8;Other illness
+Value=9;Accident
+Value=10;Murder
+Value=11;Suicide
+Value=99;Don't know
+
+[Item]
+Label=Death Caused by Cancer
+Name=DEATH_CAUSED_BY_CANCER
+Start=112
+Len=1
+
+[ValueSet]
+Label=Death Caused by Cancer
+Name=DEATH_CAUSED_BY_CANCER_VS2
+Value=1;Breast cancer
+Value=2;Cervix cancer
+Value=3;Prostate cancer
+Value=4;Skin cancer
+Value=5;Other, specify
+Value=9;Don't know
+
+[Item]
+Label=Death Caused by Accident
+Name=DEATH_CAUSED_BY_ACCIDENT
+Start=113
+Len=1
+
+[ValueSet]
+Label=Death Caused by Accident
+Name=DEATH_CAUSED_BY_ACCIDENT_VS2
+Value=1;Rorad Traffic Accidents
+Value=2;Accidents from Workplace
+Value=2;Accidents involving animals e.g. fall from donkey/horse
+Value=3;Other, Specify
+Value=9;Don't Know
+
+[Item]
+Label=Pregnancy related death
+Name=PREGNANCY_RELATED_DEATH
+Start=114
+Len=1
+
+[ValueSet]
+Label=Pregnancy related death
+Name=PREGNANCY_RELATED_DEATH_VS2
+Value=1;While pregnant
+Value=2;During childbirth
+Value=3;Within 6 weeks of the end of a pregnancy or child birth
+Value=9;Don’t Know
+>>>>>>> origin/master
