@@ -15,13 +15,203 @@ Name=ROSTER_LEVEL
 [IdItems]
 
 [Item]
-Label=Roster Identification
-Name=ROSTER_ID
+Label=Region
+Name=R_REGION
 Start=2
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Constituency
+Name=R_CONSTITUENCY
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Urban or Rural Code
+Name=R_URBAN_RURAL
+Start=6
+Len=2
+
+[Item]
+Label=PSU
+Name=R_PSU
+Start=8
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Structure No
+Name=R_STRUCT_NO
+Start=11
 Len=1
+
+[Item]
+Label=Dwelling Number
+Name=R_DU
+Start=12
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Household Number
+Name=R_HH
+Start=15
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Staff Code
+Name=R_STAFF_CODE
+Start=17
+Len=6
 
 [Record]
 Label=Roster Record
 Name=ROSTER_REC
 RecordTypeValue='1'
-RecordLen=1
+RecordLen=139
+
+[Item]
+Label=B0 Total number of people
+Name=TOTAL_COUNT
+Start=23
+Len=3
+
+[Item]
+Label=B1 Line number of household member
+Name=PERSON_NUMBER
+Start=26
+Len=3
+
+[Item]
+Label=B2 Name of Person
+Name=NAME
+Start=29
+Len=100
+DataType=Alpha
+
+[Item]
+Label=B3 Relationship
+Name=RELATIONSHIP
+Start=129
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=B3 Relationship
+Name=RELATIONSHIP_VS1
+Value=1;Head of household
+Value=2;Spouse/ Partner
+Value=3;Daughter/ Son
+Value=4;Daughter/ Son In-Law
+Value=5;Grandchild
+Value=6;Parent
+Value=7;Parent-In-Law
+Value=8;Sister/ Brother
+Value=9;Sister/ Brother In-Law
+Value=10;Other relative
+Value=11;Domestic worker
+Value=12;Other non-relative
+
+[ValueSet]
+Label=B03 Relationship Female
+Name=RELATIONSHIP_VS2
+Value=1;Head of household
+Value=2;Spouse/ Partner
+Value=3;Daughter
+Value=4;Daughter-In-Law
+Value=5;Granddaughter
+Value=6;Mother
+Value=7;Mother-In-Law
+Value=8;Sister
+Value=9;Sister-In-Law
+Value=10;Other relative
+Value=11;Domestic worker
+Value=12;Other non-relative
+
+[ValueSet]
+Label=B03 Relationship Male
+Name=RELATIONSHIP_VS3
+Value=1;Head of household
+Value=2;Spouse/ Partner
+Value=3;Son
+Value=4;Son-In-Law
+Value=5;Grandson
+Value=6;Father
+Value=7;Father-In-Law
+Value=8;Brother
+Value=9;Brother-In-Law
+Value=10;Other relative
+Value=11;Domestic worker
+Value=12;Other non-relative
+
+[Item]
+Label=B4 Sex of Household Member
+Name=SEX
+Start=131
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B4 Sex of Household Member
+Name=SEX_VS1
+Value=1;Female
+Value=2;Male
+
+[Item]
+Label=B4b Verification of Member of the Roster
+Name=VERIFICATION
+Start=132
+Len=1
+
+[ValueSet]
+Label=B4b Verification of Member of the Roster
+Name=VERIFICATION_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=B5 Age of Household Member in Complete Years
+Name=AGE
+Start=133
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B5 Age of Household Member in Complete Years
+Name=AGE_VS1
+Value=0:120;Age
+Value=999;Don't Know
+
+[Item]
+Label=B6 Marital Status for the Household Member
+Name=MARITAL_STATUS
+Start=136
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B6 Marital Status for the Household Member
+Name=MARITAL_STATUS_VS1
+Value=1;Never married
+Value=2;Married with certificate
+Value=3;Married traditionally / customary
+Value=4;Consensual union
+Value=5;Widowed
+Value=6;Divorced
+Value=7;Separated
+Value=9;Don't Know
+
+[Item]
+Label=B7 Age at First Marriage/Consensual Union
+Name=AGE_FIRST_MARRIAGE
+Start=137
+Len=3
+
+[ValueSet]
+Label=B7 Age at First Marriage/Consensual Union
+Name=AGE_FIRST_MARRIAGE_VS1
+Value=1:120;Age
+Value=999;Don't Know
