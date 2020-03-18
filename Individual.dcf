@@ -24,10 +24,217 @@ Len=1
 Label=Individual Record
 Name=INDIVIDUAL_REC
 RecordTypeValue='1'
-RecordLen=2
+RecordLen=45
 
-[Record]
-Label=Gideon
-Name=GIDEON
-RecordTypeValue='2'
-RecordLen=2
+[Item]
+Label=Number of male and female live births the woman ever had
+Name=LIVEBIRTH_TOTAL
+Start=3
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Number of male and female live births the woman ever had
+Name=LIVEBIRTH_TOTAL_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Male live births the woman ever had
+Name=LIVEBIRTH_TOTAL_MALE
+Start=5
+Len=2
+
+[Item]
+Label=Female live births the woman ever had
+Name=LIVEBIRTH_TOTAL_FEMALE
+Start=7
+Len=2
+
+[Item]
+Label=Male live births the woman ever had attended by skilled personel
+Name=MALE_ATTENDED_BY_SKILLED_PERSONEL
+Start=9
+Len=2
+
+[Item]
+Label=Female live births the woman ever had attended by skilled personel
+Name=FEMALE_ATTENDED_BY_SKILLED_PERSONEL
+Start=11
+Len=2
+
+[Item]
+Label=Number of biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_PRESENT
+Start=13
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Number of biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_PRESENT_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Male biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_PRESENT
+Start=15
+Len=2
+
+[Item]
+Label=female biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_PRESENT
+Start=17
+Len=2
+
+[Item]
+Label=Number of biological children that were elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO__CHILDREN_ELSEWHERE
+Start=19
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Number of biological children that were elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO__CHILDREN_ELSEWHERE_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Male biological children that were Elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_ELSEWHERE
+Start=21
+Len=2
+
+[Item]
+Label=female biological children that were Elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_ELSEWHRE
+Start=23
+Len=2
+
+[Item]
+Label=Number of biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE
+Start=25
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Number of biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Male bilogical children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_NOT_ALIVE
+Start=27
+Len=2
+
+[Item]
+Label=female biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_NOT_ALIVE
+Start=29
+Len=2
+
+[Item]
+Label=Age of the woman at her first live birth
+Name=AGE_AT_FIRST_LIVEBIRTH
+Start=31
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Age of the woman at her first live birth
+Name=AGE_AT_FIRST_LIVEBIRTH_VS1
+Value=8:54;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Month of the woman’s last live birth
+Name=MONTH_OF_LAST_LIVEBIRTH
+Start=33
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month of the woman’s last live birth
+Name=MONTH_OF_LAST_LIVEBIRTH_VS1
+Value=1:12;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=Year of the woman’s last live birth
+Name=YEAR_OF_LAST_LIVEBIRTH
+Start=35
+Len=4
+
+[ValueSet]
+Label=Year of the woman’s last live birth
+Name=YEAR_OF_LAST_LIVEBIRTH_VS1
+Value=1975:2021;Valid Range
+Value=9999;Don't Know
+
+[Item]
+Label=The type of birth for the woman’s last live birth
+Name=BIRTH_TYPE
+Start=39
+Len=1
+
+[ValueSet]
+Label=The type of birth for the woman’s last live birth
+Name=BIRTH_TYPE_VS1
+Value=1;Single
+Value=2;Multiple
+Value=9;Don't know
+
+[Item]
+Label=Male birth for the woman's last live birth
+Name=BIRTH_TYPE_MALE
+Start=40
+Len=1
+
+[Item]
+Label=Female birth of the woman's last live bith
+Name=BIRTH_TYPE_FEMALE
+Start=41
+Len=1
+
+[Item]
+Label=The sex of the last live birth
+Name=SEX_OF_LAST_LIVEBIRTH
+Start=42
+Len=1
+
+[ValueSet]
+Label=The sex of the last live birth
+Name=SEX_OF_LAST_LIVEBIRTH_VS1
+Value=1;Male
+Value=2;Female
+Value=9;Don't know
+
+[Item]
+Label=The last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE
+Start=43
+Len=1
+
+[ValueSet]
+Label=The last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=Male last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE_MALE
+Start=44
+Len=1
+
+[Item]
+Label=Feale last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE_FEMALE
+Start=45
+Len=1
