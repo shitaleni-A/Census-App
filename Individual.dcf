@@ -21,6 +21,7 @@ Start=2
 Len=1
 
 [Record]
+<<<<<<< HEAD
 Label=Individual Record
 Name=INDIVIDUAL_REC
 RecordTypeValue='1'
@@ -223,11 +224,1270 @@ Len=1
 [ValueSet]
 Label=The last live birth still alive
 Name=LAST_LIVEBIRTH_ALIVE_VS1
+=======
+Label=MIGRATION_REC
+Name=MIGRATION_REC
+RecordTypeValue='A'
+RecordLen=39
+
+[Item]
+Label=B8_Ethnicity
+Name=ETHNICITY
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=B09_A Citizenship Major
+Name=B09_A_CITIZENSHIP_MAJOR
+Start=5
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B09_A Citizenship Major
+Name=B09_A_CITIZENSHIP_MAJOR_VS1
+Value=100;African
+Value=200;Asia
+Value=300;Europe
+Value=400;Oceania
+Value=500;North America
+Value=600;South America
+
+[Item]
+Label=B09_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR
+Start=8
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B09_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS1
+Value=101;Algeria
+Value=102;Angola
+Value=103;Benin
+Value=104;Botswana
+Value=105;Burkina
+Value=106;Burundi
+Value=107;Cameroon
+Value=108;Cape Verde
+Value=109;Central African Republic
+Value=110;Chad
+Value=111;Comoros
+Value=112;Congo
+Value=113;Democratic Republic of Congo
+Value=114;Djibouti
+Value=115;Egypt
+Value=116;Equatorial Guinea
+Value=117;Eritrea
+Value=118;Ethiopia
+Value=119;Gabon
+Value=120;Gambia
+Value=121;Ghana
+Value=122;Guinea
+Value=123;Guinea-Bissau
+Value=148;Swaziland
+Value=149;Tanzania
+Value=150;Togo
+Value=151;Tunisia
+Value=124;Ivory Coast
+Value=125;Kenya
+Value=126;Lesotho
+Value=127;Liberia
+Value=128;Libya
+Value=129;Madagascar
+Value=130;Malawi
+Value=131;Mali
+Value=132;Mauritania
+Value=133;Mauritius
+Value=134;Morocco
+Value=135;Mozambique
+Value=136;Namibia
+Value=137;Niger
+Value=138;Nigeria
+Value=139;Rwanda
+Value=140;Sao Tome and Principe
+Value=141;Senegal
+Value=142;Seychelles
+Value=143;Sierra Leone
+Value=144;Somalia
+Value=145;South Africa
+Value=146;Sudan North
+Value=147;Sudan South
+Value=152;Uganda
+Value=153;Zambia
+Value=154;Zimbabwe
+
+[ValueSet]
+Label=B08_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS2
+Value=201;Afghanistan
+Value=202;Bahrain
+Value=203;Bangladesh
+Value=204;Bhutan
+Value=205;Brunei
+Value=206;Burma (Myanmar)
+Value=207;Cambodia
+Value=208;China
+Value=209;East Timor
+Value=210;India
+Value=211;Indonesia
+Value=212;Iran
+Value=213;Iraq
+Value=214;Israel
+Value=215;Japan
+Value=216;Jordan
+Value=217;Kazakstan
+Value=218;Korea, North
+Value=219;Korea, South
+Value=220;Kuwait
+Value=221;Kyrgyzstan
+Value=244;Yemen
+Value=222;Laos
+Value=223;Lebanon
+Value=224;Malaysia
+Value=225;Maldives
+Value=226;Mongolia
+Value=227;Nepal
+Value=228;Oman
+Value=229;Pakistan
+Value=230;Philippines
+Value=231;Qatar
+Value=232;Russian Federation
+Value=233;Saudi Arabia
+Value=234;Singapore
+Value=235;Sri Lanka
+Value=236;Syria
+Value=237;Tajikistan
+Value=238;Thailand
+Value=239;Turkey
+Value=240;Turkmenistan
+Value=241;United Arab Emirates
+Value=242;Uzbekistan
+Value=243;Vietnam
+
+[ValueSet]
+Label=B08_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS3
+Value=301;Albania
+Value=302;Andorra
+Value=303;Armenia
+Value=304;Austria
+Value=305;Azerbaijan
+Value=306;Belarus
+Value=307;Belgium
+Value=308;Bosnia and Herzegovina
+Value=309;Bulgaria
+Value=310;Croatia
+Value=311;Cyprus
+Value=312;Czech Republic
+Value=313;Denmark
+Value=314;Estonia
+Value=315;Finland
+Value=316;France
+Value=317;Georgia
+Value=318;Germany
+Value=319;Greece
+Value=320;Hungary
+Value=321;Iceland
+Value=322;Ireland
+Value=323;Italy
+Value=324;Latvia
+Value=325;Liechtenstein
+Value=326;Lithuania
+Value=327;Luxembourg
+Value=328;Macedonia
+Value=329;Malta
+Value=330;Moldova
+Value=331;Monaco
+Value=332;Montenegro
+Value=333;Netherlands
+Value=334;Norway
+Value=335;Poland
+Value=336;Portugal
+Value=337;Romania
+Value=338;San Marino
+Value=339;Serbia
+Value=340;Slovakia
+Value=341;Slovenia
+Value=342;Spain
+Value=343;Sweden
+Value=344;Switzerland
+Value=345;Ukraine
+Value=346;United Kingdom
+Value=347;Vatican City
+
+[ValueSet]
+Label=B08_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS4
+Value=401;Australia
+Value=402;Fiji
+Value=403;Kiribati
+Value=404;Marshall Islands
+Value=405;Micronesia
+Value=406;Nauru
+Value=407;New Zealand
+Value=408;Palau
+Value=409;Papua New Guinea
+Value=410;Samoa
+Value=411;Solomon Islands
+Value=412;Tonga
+Value=413;Tuvalu
+Value=414;Vanuatu
+
+[ValueSet]
+Label=B08_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS5
+Value=501;Antigua and Barbuda
+Value=502;Bahamas
+Value=503;Barbados
+Value=504;Belize
+Value=505;Canada
+Value=506;Costa Rica
+Value=507;Cuba
+Value=508;Dominica
+Value=509;Dominican Republic
+Value=510;El Salvador
+Value=511;Grenada
+Value=512;Guatemala
+Value=513;Haiti
+Value=514;Honduras
+Value=515;Jamaica
+Value=516;Mexico
+Value=517;Nicaragua
+Value=518;Panama
+Value=519;Saint Kitts and Nevis
+Value=520;Saint Lucia
+Value=521;Saint Vincent and the Grenadines
+Value=522;Trinidad and Tobago
+Value=523;United States
+
+[ValueSet]
+Label=B08_B Citizenship Minor
+Name=B09_B_CITIZENSHIP_MINOR_VS6
+Value=601;Argentina
+Value=602;Bolivia
+Value=603;Brazil
+Value=604;Chile
+Value=605;Colombia
+Value=606;Ecuador
+Value=607;Guyana
+Value=608;Paraguay
+Value=609;Peru
+Value=610;Suriname
+
+[Item]
+Label=B10_Type of Citizenship
+Name=CITIZENSHIP
+Start=11
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B10_Type of Citizenship
+Name=CITIZENSHIP_VS1
+Value=1;Birth
+Value=2;Decent
+Value=3;Marriage
+Value=4;Registration
+Value=5;Naturalization
+Value=9;Don't know
+
+[Item]
+Label=B11_A_Household Member Have a Birth Certificate
+Name=BIRTH_CERTIFICATE_YN
+Start=12
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B11_A_Household Member Have a Birth Certificate
+Name=BIRTH_CERTIFICATE_YN_VS1
 Value=1;Yes
 Value=2;No
 Value=9;Don't know
 
 [Item]
+Label=B11_B_Birth Certificate
+Name=BIRTH_CERTIFICATE_TYPE
+Start=13
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B11_B_Birth Certificate
+Name=BIRTH_CERTIFICATE_TYPE_VS1
+Value=1;Issued by Namibian Government
+Value=2;Foreigner  with Namibian certificate
+Value=3;Yes, Namibian with foreign certificate
+Value=4;Foreigner  with foreign certificate
+Value=5;No
+Value=9;Don't know
+
+[Item]
+Label=B12_A_Namibian Identification Card (ID)
+Name=NAMIBIAN_ID
+Start=14
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B12_A_Namibian Identification Card (ID)
+Name=NAMIBIAN_ID_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=B12_B_Type of Namibian Identification Card (ID)
+Name=NAMIBIAN_ID_TYPE
+Start=15
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B12_B_Type of Namibian Identification Card (ID)
+Name=NAMIBIAN_ID_TYPE_VS1
+Value=1;New ID
+Value=2;South West Africa (SWA) ID
+Value=9;Don't know
+
+[Item]
+Label=B13_A_Birth Place Region/ Country
+Name=BIRTH_PLACE_REGION
+Start=16
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B13_A_Birth Place Region/ Country
+Name=BIRTH_PLACE_REGION_VS1
+Value=1;!Karas
+Value=2;Erongo
+Value=3;Hardap
+Value=4;Kavango East
+Value=5;Kavango West
+Value=6;Khomas
+Value=7;Kunene
+Value=8;Ohangwena
+Value=9;Omaheke
+Value=10;Omusati
+Value=11;Oshana
+Value=12;Oshikoto
+Value=13;Otjozondjupa
+Value=14;Zambezi
+Value=777;----------------
+Value=102;Angola
+Value=104;Botswana
+Value=145;South Africa
+Value=153;Zambia
+Value=154;Zimbabwe
+Value=155;Other SADC
+Value=138;Nigeria
+Value=100;Other African countries
+Value=208;China
+Value=300;European countries
+Value=700;All other countries
+Value=999;Don't know
+
+[Item]
+Label=B13_ B_Birth Place Constituency
+Name=BIRTH_PLACE_CONST
+Start=19
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=B13_ Birth Place Constituency
+Name=BIRTH_PLACE_CONST_VS1
+Value=101;!Nami ≠ Nüs
+Value=102;Berseba
+Value=103;Karasburg East
+Value=104;Karasburg West
+Value=105;Keetmanshoop Rural
+Value=106;Keetmanshoop Urban
+Value=107;Oranjemund
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS2
+Value=201;Arandis
+Value=202;Daures
+Value=203;Karibib
+Value=204;Omaruru
+Value=205;Swakopmund
+Value=206;Walvis Bay Rural
+Value=207;Walvis Bay Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS3
+Value=301;Aranos
+Value=302;Daweb
+Value=303;Gibeon
+Value=304;Mariental Rural
+Value=305;Mariental Urban
+Value=306;Rehoboth East Urban
+Value=307;Rehoboth Rural
+Value=308;Rehoboth West Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS4
+Value=401;Mashare
+Value=402;Mukwe
+Value=403;Ndiyona
+Value=404;Ndonga Linena
+Value=405;Rundu Rural
+Value=406;Rundu Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS5
+Value=501;Kapako
+Value=502;Mankumpi
+Value=503;Mpungu
+Value=504;Musese
+Value=505;Ncamagoro
+Value=506;Ncuncuni
+Value=507;Nkurenkuru
+Value=508;Tondoro
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS6
+Value=601;John Pandeni
+Value=602;Katutura Central
+Value=603;Katutura East
+Value=604;Khomasdal
+Value=605;Moses //Garoeb
+Value=606;Samora Machel
+Value=607;Tobias Hainyeko
+Value=608;Windhoek East
+Value=609;Windhoek Rural
+Value=610;Windhoek West
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS7
+Value=701;Epupa
+Value=702;Kamanjab
+Value=703;Khorixas
+Value=704;Opuwo Rural
+Value=705;Opuwo Urban
+Value=706;Outjo
+Value=707;Sesfontein
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS8
+Value=801;Eenhana
+Value=802;Endola
+Value=803;Engela
+Value=804;Epembe
+Value=805;Ohangwena
+Value=806;Okongo
+Value=807;Omulonga
+Value=808;Omundaungilo
+Value=809;Ondobe
+Value=810;Ongenga
+Value=811;Oshikango
+Value=812;Oshikunde
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS9
+Value=901;Aminius
+Value=902;Epukiro
+Value=903;Gobabis
+Value=904;Kalahari
+Value=905;Okorukambe
+Value=906;Otjombinde
+Value=907;Otjinene
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS10
+Value=1001;Anamulenge
+Value=1002;Elim
+Value=1003;Etayi
+Value=1004;Ogongo
+Value=1005;Okahao
+Value=1006;Okalongo
+Value=1007;Onesi
+Value=1008;Oshikuku
+Value=1009;Otamanzi
+Value=1010;Outapi
+Value=1011;Ruacana
+Value=1012;Tsandi
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS11
+Value=1101;Okaku
+Value=1102;Okatana
+Value=1103;Okatyali
+Value=1104;Ompundja
+Value=1105;Ondangwa Rural
+Value=1106;Ondangwa Urban
+Value=1107;Ongwediva
+Value=1108;Oshakati East
+Value=1109;Oshakati West
+Value=1110;Uukwiyu
+Value=1111;Uuvudhiya
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS12
+Value=1201;Eengodi
+Value=1202;Guinas
+Value=1203;Nehale lya Mpingana
+Value=1204;Okankolo
+Value=1205;Olukonda
+Value=1206;Omuntele
+Value=1207;Omuthiyagwiipundi
+Value=1208;Onayena
+Value=1209;Oniipa
+Value=1210;Onyaanya
+Value=1211;Tsumeb
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS13
+Value=1301;Grootfontein
+Value=1302;Okahandja
+Value=1303;Okakarara
+Value=1304;Omatako
+Value=1305;Otavi
+Value=1306;Otjiwarongo
+Value=1307;Tsumkwe
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=BIRTH_PLACE_CONST_VS14
+Value=1401;Judea Lyabboloma
+Value=1402;Kabbe North
+Value=1403;Kabbe South
+Value=1404;Katima Mulilo Rural
+Value=1405;Katima Mulilo Urban
+Value=1406;Kongola
+Value=1407;Linyanti
+Value=1408;Sibbinda
+
+[Item]
+Label=B14_A_Usual Residence Region/ Country
+Name=USUAL_RESIDENCE_REGION_COUNTRY
+Start=23
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B14_A_Usual Residence Region/ Country
+Name=USUAL_RESIDENCE_REGION_COUNTRY_VS1
+Value=1;!Karas
+Value=2;Erongo
+Value=3;Hardap
+Value=4;Kavango East
+Value=5;Kavango West
+Value=6;Khomas
+Value=7;Kunene
+Value=8;Ohangwena
+Value=9;Omaheke
+Value=10;Omusati
+Value=11;Oshana
+Value=12;Oshikoto
+Value=13;Otjozondjupa
+Value=14;Zambezi
+Value=777;----------------
+Value=102;Angola
+Value=104;Botswana
+Value=145;South Africa
+Value=153;Zambia
+Value=154;Zimbabwe
+Value=155;Other SADC
+Value=138;Nigeria
+Value=100;Other African countries
+Value=208;China
+Value=300;European countries
+Value=700;All other countries
+Value=999;Don't know
+
+[Item]
+Label=B14_B_Usual Residence Constituency
+Name=USUAL_RESIDENCE_CONSTITUENCY
+Start=26
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=B14_Usual Residence Constituency
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS1
+Value=101;!Nami ≠ Nüs
+Value=102;Berseba
+Value=103;Karasburg East
+Value=104;Karasburg West
+Value=105;Keetmanshoop Rural
+Value=106;Keetmanshoop Urban
+Value=107;Oranjemund
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS2
+Value=201;Arandis
+Value=202;Daures
+Value=203;Karibib
+Value=204;Omaruru
+Value=205;Swakopmund
+Value=206;Walvis Bay Rural
+Value=207;Walvis Bay Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS3
+Value=301;Aranos
+Value=302;Daweb
+Value=303;Gibeon
+Value=304;Mariental Rural
+Value=305;Mariental Urban
+Value=306;Rehoboth East Urban
+Value=307;Rehoboth Rural
+Value=308;Rehoboth West Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS4
+Value=401;Mashare
+Value=402;Mukwe
+Value=403;Ndiyona
+Value=404;Ndonga Linena
+Value=405;Rundu Rural
+Value=406;Rundu Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS5
+Value=501;Kapako
+Value=502;Mankumpi
+Value=503;Mpungu
+Value=504;Musese
+Value=505;Ncamagoro
+Value=506;Ncuncuni
+Value=507;Nkurenkuru
+Value=508;Tondoro
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS6
+Value=601;John Pandeni
+Value=602;Katutura Central
+Value=603;Katutura East
+Value=604;Khomasdal
+Value=605;Moses //Garoeb
+Value=606;Samora Machel
+Value=607;Tobias Hainyeko
+Value=608;Windhoek East
+Value=609;Windhoek Rural
+Value=610;Windhoek West
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS7
+Value=701;Epupa
+Value=702;Kamanjab
+Value=703;Khorixas
+Value=704;Opuwo Rural
+Value=705;Opuwo Urban
+Value=706;Outjo
+Value=707;Sesfontein
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS8
+Value=801;Eenhana
+Value=802;Endola
+Value=803;Engela
+Value=804;Epembe
+Value=805;Ohangwena
+Value=806;Okongo
+Value=807;Omulonga
+Value=808;Omundaungilo
+Value=809;Ondobe
+Value=810;Ongenga
+Value=811;Oshikango
+Value=812;Oshikunde
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS9
+Value=901;Aminius
+Value=902;Epukiro
+Value=903;Gobabis
+Value=904;Kalahari
+Value=905;Okorukambe
+Value=906;Otjombinde
+Value=907;Otjinene
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS10
+Value=1001;Anamulenge
+Value=1002;Elim
+Value=1003;Etayi
+Value=1004;Ogongo
+Value=1005;Okahao
+Value=1006;Okalongo
+Value=1007;Onesi
+Value=1008;Oshikuku
+Value=1009;Otamanzi
+Value=1010;Outapi
+Value=1011;Ruacana
+Value=1012;Tsandi
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS11
+Value=1101;Okaku
+Value=1102;Okatana
+Value=1103;Okatyali
+Value=1104;Ompundja
+Value=1105;Ondangwa Rural
+Value=1106;Ondangwa Urban
+Value=1107;Ongwediva
+Value=1108;Oshakati East
+Value=1109;Oshakati West
+Value=1110;Uukwiyu
+Value=1111;Uuvudhiya
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS12
+Value=1201;Eengodi
+Value=1202;Guinas
+Value=1203;Nehale lya Mpingana
+Value=1204;Okankolo
+Value=1205;Olukonda
+Value=1206;Omuntele
+Value=1207;Omuthiyagwiipundi
+Value=1208;Onayena
+Value=1209;Oniipa
+Value=1210;Onyaanya
+Value=1211;Tsumeb
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS13
+Value=1301;Grootfontein
+Value=1302;Okahandja
+Value=1303;Okakarara
+Value=1304;Omatako
+Value=1305;Otavi
+Value=1306;Otjiwarongo
+Value=1307;Tsumkwe
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=USUAL_RESIDENCE_CONSTITUENCY_VS14
+Value=1401;Judea Lyabboloma
+Value=1402;Kabbe North
+Value=1403;Kabbe South
+Value=1404;Katima Mulilo Rural
+Value=1405;Katima Mulilo Urban
+Value=1406;Kongola
+Value=1407;Linyanti
+Value=1408;Sibbinda
+
+[Item]
+Label=B15_Duration at the place of usual residence
+Name=DURATION_AT_USUAL_RESIDENCE
+Start=30
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B15_Duration at the place of usual residence
+Name=DURATION_AT_USUAL_RESIDENCE_VS1
+Value=0:120
+Value=999;Don't Know
+
+[Item]
+Label=B16_A_Previous Residence Region/ Country
+Name=PREVIOUS_RESIDENCE_REGION_COUNTRY
+Start=33
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=B16_A_Previous Residence Region/ Country
+Name=PREVIOUS_RESIDENCE_REGION_COUNTRY_VS1
+Value=1;!Karas
+Value=2;Erongo
+Value=3;Hardap
+Value=4;Kavango East
+Value=5;Kavango West
+Value=6;Khomas
+Value=7;Kunene
+Value=8;Ohangwena
+Value=9;Omaheke
+Value=10;Omusati
+Value=11;Oshana
+Value=12;Oshikoto
+Value=13;Otjozondjupa
+Value=14;Zambezi
+Value=777;----------------
+Value=102;Angola
+Value=104;Botswana
+Value=145;South Africa
+Value=153;Zambia
+Value=154;Zimbabwe
+Value=155;Other SADC
+Value=138;Nigeria
+Value=100;Other African countries
+Value=208;China
+Value=300;European countries
+Value=700;All other countries
+Value=999;Don't know
+
+[Item]
+Label=B16_B_Previous Residence Constituency
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY
+Start=37
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=B16_Previous Residence Constituency
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS1
+Value=101;!Nami ≠ Nüs
+Value=102;Berseba
+Value=103;Karasburg East
+Value=104;Karasburg West
+Value=105;Keetmanshoop Rural
+Value=106;Keetmanshoop Urban
+Value=107;Oranjemund
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS2
+Value=201;Arandis
+Value=202;Daures
+Value=203;Karibib
+Value=204;Omaruru
+Value=205;Swakopmund
+Value=206;Walvis Bay Rural
+Value=207;Walvis Bay Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS3
+Value=301;Aranos
+Value=302;Daweb
+Value=303;Gibeon
+Value=304;Mariental Rural
+Value=305;Mariental Urban
+Value=306;Rehoboth East Urban
+Value=307;Rehoboth Rural
+Value=308;Rehoboth West Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS4
+Value=401;Mashare
+Value=402;Mukwe
+Value=403;Ndiyona
+Value=404;Ndonga Linena
+Value=405;Rundu Rural
+Value=406;Rundu Urban
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS5
+Value=501;Kapako
+Value=502;Mankumpi
+Value=503;Mpungu
+Value=504;Musese
+Value=505;Ncamagoro
+Value=506;Ncuncuni
+Value=507;Nkurenkuru
+Value=508;Tondoro
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS6
+Value=601;John Pandeni
+Value=602;Katutura Central
+Value=603;Katutura East
+Value=604;Khomasdal
+Value=605;Moses //Garoeb
+Value=606;Samora Machel
+Value=607;Tobias Hainyeko
+Value=608;Windhoek East
+Value=609;Windhoek Rural
+Value=610;Windhoek West
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS7
+Value=701;Epupa
+Value=702;Kamanjab
+Value=703;Khorixas
+Value=704;Opuwo Rural
+Value=705;Opuwo Urban
+Value=706;Outjo
+Value=707;Sesfontein
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS8
+Value=801;Eenhana
+Value=802;Endola
+Value=803;Engela
+Value=804;Epembe
+Value=805;Ohangwena
+Value=806;Okongo
+Value=807;Omulonga
+Value=808;Omundaungilo
+Value=809;Ondobe
+Value=810;Ongenga
+Value=811;Oshikango
+Value=812;Oshikunde
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS9
+Value=901;Aminius
+Value=902;Epukiro
+Value=903;Gobabis
+Value=904;Kalahari
+Value=905;Okorukambe
+Value=906;Otjombinde
+Value=907;Otjinene
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS10
+Value=1;Anamulenge
+Value=2;Elim
+Value=3;Etayi
+Value=4;Ogongo
+Value=5;Okahao
+Value=6;Okalongo
+Value=7;Onesi
+Value=8;Oshikuku
+Value=9;Otamanzi
+Value=10;Outapi
+Value=11;Ruacana
+Value=12;Tsandi
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS11
+Value=101;Okaku
+Value=102;Okatana
+Value=103;Okatyali
+Value=104;Ompundja
+Value=105;Ondangwa Rural
+Value=106;Ondangwa Urban
+Value=107;Ongwediva
+Value=108;Oshakati East
+Value=109;Oshakati West
+Value=110;Uukwiyu
+Value=111;Uuvudhiya
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS12
+Value=201;Eengodi
+Value=202;Guinas
+Value=203;Nehale lya Mpingana
+Value=204;Okankolo
+Value=205;Olukonda
+Value=206;Omuntele
+Value=207;Omuthiyagwiipundi
+Value=208;Onayena
+Value=209;Oniipa
+Value=210;Onyaanya
+Value=211;Tsumeb
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS13
+Value=301;Grootfontein
+Value=302;Okahandja
+Value=303;Okakarara
+Value=304;Omatako
+Value=305;Otavi
+Value=306;Otjiwarongo
+Value=307;Tsumkwe
+
+[ValueSet]
+Label=B17 Constituency Moved From
+Name=PREVIOUS_RESIDENCE_CONSTITUENCY_VS14
+Value=401;Judea Lyabboloma
+Value=402;Kabbe North
+Value=403;Kabbe South
+Value=404;Katima Mulilo Rural
+Value=405;Katima Mulilo Urban
+Value=406;Kongola
+Value=407;Linyanti
+Value=408;Sibbinda
+
+[Record]
+Label=ORPHAN_HOOD_GRANTS_REC
+Name=ORPHAN_HOOD_GRANTS_REC
+RecordTypeValue='B'
+RecordLen=16
+
+[Item]
+Label=B17_Orphanhood Mother
+Name=ORPHANHOOD_MOTHER
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B17_Orphanhood Mother
+Name=ORPHANHOOD_MOTHER_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=B18_Orphanhood Father
+Name=ORPHANHOOD_FATHER
+Start=4
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B18_Orphanhood Father
+Name=ORPHANHOOD_FATHER_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=B19_A_Receive Social/ Grant
+Name=RECEIVE_SOCIAL_GRANT
+Start=5
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B19_A_Receive Social/ Grant
+Name=RECEIVE_SOCIAL_GRANT_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=B19_B_Type of Social Grants/ Pension
+Name=TYPE_SOCIAL_GRANTS_PENSION
+Start=6
+Len=11
+DataType=Alpha
+
+[ValueSet]
+Label=B19_B_Type of Social Grants/ Pension
+Name=TYPE_SOCIAL_GRANTS_PENSION_VS1
+Value='A          ';Old age Pension
+Value='B          ';Disability Grants
+Value='C          ';State maintanance grant
+Value='D          ';Foster parent grant
+Value='E          ';From workmen’s compensation unemployment insurance, social security, MVA and similar funds
+Value='F          ';Pension from previous job
+Value='G          ';GIPF
+Value='H          ';War Veterans/ex-combatants Grants
+Value='I          ';Other specify
+Value='J          ';None
+Value='K          ';Don't know
+
+[Record]
+Label=DISABILITY_REC
+Name=DISABILITY_REC
+RecordTypeValue='C'
+RecordLen=9
+
+[Item]
+Label=B20_A_Difficulties Seeing
+Name=DIFFICULTY_SEEING
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_A_Difficulties Seeing
+Name=DIFFICULTY_SEEING_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B20_B_Difficulties Hearing
+Name=DIFFICULTY_HEARING
+Start=4
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_B_Difficulties Hearing
+Name=DIFFICULTY_HEARING_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B20_C_Difficulties Walking or Climbing Steps
+Name=DIFFICULTY_WALKING_CLIMBING_STEPS
+Start=5
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_C_Difficulties Walking or Climbing Steps
+Name=DIFFICULTY_WALKING_CLIMBING_STEPS_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B20_D_Difficulties Remembering or Concentrating
+Name=DIFFICULTY_REMEMBERING_CONCENTRATING
+Start=6
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_D_Difficulties Remembering or Concentrating
+Name=DIFFICULTY_REMEMBERING_CONCENTRATING_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B20_E_Difficulty With Self-Care
+Name=DIFFICULTY_SELF_CARE
+Start=7
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_E_Difficulty With Self-Care
+Name=DIFFICULTY_SELF_CARE_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B20_F_Difficulty Communicating
+Name=DIFFICULTY_COMMUNICATING
+Start=8
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B20_F_Difficulty Communicating
+Name=DIFFICULTY_COMMUNICATING_VS1
+Value=1;No difficulty
+Value=2;Some difficulty
+Value=3;A lot of difficulty
+Value=4;Cannot do at all
+Value=9;Don't know
+
+[Item]
+Label=B21_Albinism Condition
+Name=ALBINISM
+Start=9
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B21_Albinism Condition
+Name=ALBINISM_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Record]
+Label=ICT_REC
+Name=ICT_REC
+RecordTypeValue='D'
+RecordLen=25
+
+[Item]
+Label=B22_ICT services
+Name=ICT_SERVICES
+Start=3
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=B22_ICT services
+Name=ICT_SERVICES_VS1
+Value='A         ';Tablet/Ipad
+Value='B         ';Radio
+Value='C         ';Television
+Value='D         ';Computer/laptop
+Value='E         ';Cellphone/ Mobile phone
+Value='F         ';Telephone (fixed)
+Value='G         ';Newspaper
+Value='H         ';Internet  (Facebook, Google, email etc.)
+
+[Item]
+Label=B23_Mobile Phone Ownership
+Name=MOBILE_PHONE_OWNERSHIP
+Start=13
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B23_Mobile Phone Ownership
+Name=MOBILE_PHONE_OWNERSHIP_VS1
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+Label=B24_Type of mobile phone owned or used
+Name=TYPE_MOBILE_PHONE_OWNERSHIP
+Start=14
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B24_Type of mobile phone owned or used
+Name=TYPE_MOBILE_PHONE_OWNERSHIP_VS1
+Value=1;Basic phone (no internet)
+Value=2;Feature phone (Small screen but some access to the Internet)
+Value=3;Smart phone
+Value=9;Don’t know
+
+[Item]
+Label=B25_A_Use Any ICT Platform
+Name=USE_ICT_PLATFORMS
+Start=15
+Len=1
+
+[ValueSet]
+Label=B25_A_Use Any ICT Platform
+Name=USE_ICT_PLATFORMS_VS1
+>>>>>>> B8_B27
+Value=1;Yes
+Value=2;No
+Value=9;Don't know
+
+[Item]
+<<<<<<< HEAD
 Label=Male last live birth still alive
 Name=LAST_LIVEBIRTH_ALIVE_MALE
 Start=44
@@ -238,3 +1498,52 @@ Label=Feale last live birth still alive
 Name=LAST_LIVEBIRTH_ALIVE_FEMALE
 Start=45
 Len=1
+=======
+Label=B25_B_Type of ICT Platform
+Name=TYPE_ICT_PLATFORM
+Start=16
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=B25_B_Type of ICT Platform
+Name=TYPE_ICT_PLATFORM_VS1
+Value='A         ';Internet browsing (search engines like google, Bing, etc.)
+Value='B         ';Social Media (face book, Instagram, WhatsApp, twitter, etc.)
+Value='C         ';Email
+Value='D         ';SMS (Short Messaging Service)
+Value='E         ';MMS (Multimedia Messaging Service)
+Value='F         ';Radio
+Value='G         ';Television
+Value='H         ';Mobile Apps (e.g. NBC,NSA, Namibian Newspaper, etc.)
+Value='I         ';Don’t know
+
+[Record]
+Label=SPORTS ACTIVITIES_REC
+Name=SPORTS_ACTIVITIES_REC
+RecordTypeValue='E'
+RecordLen=4
+
+[Item]
+Label=B26_Sports Participation by Household Members
+Name=PARTICIPATION_IN_SPORTS
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=B26_Sports Participation by Household Members
+Name=PARTICIPATION_IN_SPORTS_VS1
+Value=1;Never
+Value=2;Less than once a week
+Value=3;Once a week
+Value=4;More than once a week
+Value=9;Don't Know
+
+[Item]
+Label=B27_Primary Sport Activity Participated
+Name=PRIMARY_SPORT
+Start=4
+Len=1
+ZeroFill=Yes
+>>>>>>> B8_B27
