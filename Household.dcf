@@ -21,7 +21,6 @@ Start=2
 Len=1
 
 [Record]
-<<<<<<< HEAD
 Label=Housing Characteristics
 Name=DWELLING_REC
 RecordTypeValue='H'
@@ -469,16 +468,11 @@ Len=2
 ZeroFill=Yes
 
 [Item]
-Label=H21 Main purpose of production of this agricultural activity
-Name=PURPOSE_PRODUCTION
+Label=Household Record
+Name=HOUSEHOLD_REC
 Start=366
 Len=1
 ZeroFill=Yes
-=======
-Label=Household Record
-Name=HOUSEHOLD_REC
-RecordTypeValue='1'
-RecordLen=2
 
 [Record]
 Label=Mortality
@@ -609,5 +603,4 @@ Name=PREGNANCY_RELATED_DEATH_VS2
 Value=1;While pregnant
 Value=2;During childbirth
 Value=3;Within 6 weeks of the end of a pregnancy or child birth
-Value=9;Don’t Know
->>>>>>> origin/master
+Value=9 0 0;Don’t Know
