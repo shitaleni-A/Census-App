@@ -1481,7 +1481,11 @@ Len=1
 [ValueSet]
 Label=B25_A_Use Any ICT Platform
 Name=USE_ICT_PLATFORMS_VS1
+<<<<<<< HEAD
 >>>>>>> B8_B27
+=======
+>>>>>>> origin/B8_B27
+>>>>>>> Branch_F_G
 Value=1;Yes
 Value=2;No
 Value=9;Don't know
@@ -1546,4 +1550,8 @@ Name=PRIMARY_SPORT
 Start=4
 Len=1
 ZeroFill=Yes
+<<<<<<< HEAD
 >>>>>>> B8_B27
+=======
+>>>>>>> origin/B8_B27
+>>>>>>> Branch_F_G
