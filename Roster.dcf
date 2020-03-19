@@ -71,7 +71,7 @@ Len=6
 Label=Roster Record
 Name=ROSTER_REC
 RecordTypeValue='1'
-RecordLen=139
+RecordLen=140
 
 [Item]
 Label=B0 Total number of people
@@ -89,13 +89,13 @@ Len=3
 Label=B2 Name of Person
 Name=NAME
 Start=29
-Len=100
+Len=101
 DataType=Alpha
 
 [Item]
 Label=B3 Relationship
 Name=RELATIONSHIP
-Start=129
+Start=130
 Len=2
 ZeroFill=Yes
 
@@ -150,7 +150,7 @@ Value=12;Other non-relative
 [Item]
 Label=B4 Sex of Household Member
 Name=SEX
-Start=131
+Start=132
 Len=1
 ZeroFill=Yes
 
@@ -163,7 +163,7 @@ Value=2;Male
 [Item]
 Label=B4b Verification of Member of the Roster
 Name=VERIFICATION
-Start=132
+Start=133
 Len=1
 
 [ValueSet]
@@ -175,7 +175,7 @@ Value=2;No
 [Item]
 Label=B5 Age of Household Member in Complete Years
 Name=AGE
-Start=133
+Start=134
 Len=3
 ZeroFill=Yes
 
@@ -188,7 +188,7 @@ Value=999;Don't Know
 [Item]
 Label=B6 Marital Status for the Household Member
 Name=MARITAL_STATUS
-Start=136
+Start=137
 Len=1
 ZeroFill=Yes
 
@@ -207,7 +207,7 @@ Value=9;Don't Know
 [Item]
 Label=B7 Age at First Marriage/Consensual Union
 Name=AGE_FIRST_MARRIAGE
-Start=137
+Start=138
 Len=3
 
 [ValueSet]

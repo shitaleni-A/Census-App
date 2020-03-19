@@ -15,222 +15,16 @@ Name=INDIVIDUAL_LEVEL
 [IdItems]
 
 [Item]
-Label=id
-Name=ID
+Label=Individual Identification
+Name=INDIVIDUAL_ID
 Start=2
 Len=1
 
 [Record]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Label=Individual Record
 Name=INDIVIDUAL_REC
 RecordTypeValue='1'
-RecordLen=45
-
-[Item]
-Label=Number of male and female live births the woman ever had
-Name=LIVEBIRTH_TOTAL
-Start=3
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Number of male and female live births the woman ever had
-Name=LIVEBIRTH_TOTAL_VS1
-Value=0:30;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Male live births the woman ever had
-Name=LIVEBIRTH_TOTAL_MALE
-Start=5
-Len=2
-
-[Item]
-Label=Female live births the woman ever had
-Name=LIVEBIRTH_TOTAL_FEMALE
-Start=7
-Len=2
-
-[Item]
-Label=Male live births the woman ever had attended by skilled personel
-Name=MALE_ATTENDED_BY_SKILLED_PERSONEL
-Start=9
-Len=2
-
-[Item]
-Label=Female live births the woman ever had attended by skilled personel
-Name=FEMALE_ATTENDED_BY_SKILLED_PERSONEL
-Start=11
-Len=2
-
-[Item]
-Label=Number of biological children that were Present on the night of 29 August 2021
-Name=NUM_OF_BIO_CHILDREN_PRESENT
-Start=13
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Number of biological children that were Present on the night of 29 August 2021
-Name=NUM_OF_BIO_CHILDREN_PRESENT_VS1
-Value=0:30;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Male biological children that were Present on the night of 29 August 2021
-Name=NUM_OF_BIO_MALE_CHILDREN_PRESENT
-Start=15
-Len=2
-
-[Item]
-Label=female biological children that were Present on the night of 29 August 2021
-Name=NUM_OF_BIO_FEMALE_CHILDREN_PRESENT
-Start=17
-Len=2
-
-[Item]
-Label=Number of biological children that were elsewhere on the night of 29 August 2021
-Name=NUM_OF_BIO__CHILDREN_ELSEWHERE
-Start=19
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Number of biological children that were elsewhere on the night of 29 August 2021
-Name=NUM_OF_BIO__CHILDREN_ELSEWHERE_VS1
-Value=0:30;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Male biological children that were Elsewhere on the night of 29 August 2021
-Name=NUM_OF_BIO_MALE_CHILDREN_ELSEWHERE
-Start=21
-Len=2
-
-[Item]
-Label=female biological children that were Elsewhere on the night of 29 August 2021
-Name=NUM_OF_BIO_FEMALE_CHILDREN_ELSEWHRE
-Start=23
-Len=2
-
-[Item]
-Label=Number of biological children who are no longer alive on the night of 29 August 2021
-Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE
-Start=25
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Number of biological children who are no longer alive on the night of 29 August 2021
-Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE_VS1
-Value=0:30;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Male bilogical children who are no longer alive on the night of 29 August 2021
-Name=NUM_OF_BIO_MALE_CHILDREN_NOT_ALIVE
-Start=27
-Len=2
-
-[Item]
-Label=female biological children who are no longer alive on the night of 29 August 2021
-Name=NUM_OF_BIO_FEMALE_CHILDREN_NOT_ALIVE
-Start=29
-Len=2
-
-[Item]
-Label=Age of the woman at her first live birth
-Name=AGE_AT_FIRST_LIVEBIRTH
-Start=31
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Age of the woman at her first live birth
-Name=AGE_AT_FIRST_LIVEBIRTH_VS1
-Value=8:54;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Month of the woman’s last live birth
-Name=MONTH_OF_LAST_LIVEBIRTH
-Start=33
-Len=2
-ZeroFill=Yes
-
-[ValueSet]
-Label=Month of the woman’s last live birth
-Name=MONTH_OF_LAST_LIVEBIRTH_VS1
-Value=1:12;Valid Range
-Value=99;Don't Know
-
-[Item]
-Label=Year of the woman’s last live birth
-Name=YEAR_OF_LAST_LIVEBIRTH
-Start=35
-Len=4
-
-[ValueSet]
-Label=Year of the woman’s last live birth
-Name=YEAR_OF_LAST_LIVEBIRTH_VS1
-Value=1975:2021;Valid Range
-Value=9999;Don't Know
-
-[Item]
-Label=The type of birth for the woman’s last live birth
-Name=BIRTH_TYPE
-Start=39
-Len=1
-
-[ValueSet]
-Label=The type of birth for the woman’s last live birth
-Name=BIRTH_TYPE_VS1
-Value=1;Single
-Value=2;Multiple
-Value=9;Don't know
-
-[Item]
-Label=Male birth for the woman's last live birth
-Name=BIRTH_TYPE_MALE
-Start=40
-Len=1
-
-[Item]
-Label=Female birth of the woman's last live bith
-Name=BIRTH_TYPE_FEMALE
-Start=41
-Len=1
-
-[Item]
-Label=The sex of the last live birth
-Name=SEX_OF_LAST_LIVEBIRTH
-Start=42
-Len=1
-
-[ValueSet]
-Label=The sex of the last live birth
-Name=SEX_OF_LAST_LIVEBIRTH_VS1
-Value=1;Male
-Value=2;Female
-Value=9;Don't know
-
-[Item]
-Label=The last live birth still alive
-Name=LAST_LIVEBIRTH_ALIVE
-Start=43
-Len=1
-
-[ValueSet]
-Label=The last live birth still alive
-Name=LAST_LIVEBIRTH_ALIVE_VS1
-=======
-Label=MIGRATION_REC
-Name=MIGRATION_REC
-RecordTypeValue='A'
-RecordLen=39
+RecordLen=383
 
 [Item]
 Label=B8_Ethnicity
@@ -1234,16 +1028,10 @@ Value=406;Kongola
 Value=407;Linyanti
 Value=408;Sibbinda
 
-[Record]
-Label=ORPHAN_HOOD_GRANTS_REC
-Name=ORPHAN_HOOD_GRANTS_REC
-RecordTypeValue='B'
-RecordLen=16
-
 [Item]
 Label=B17_Orphanhood Mother
 Name=ORPHANHOOD_MOTHER
-Start=3
+Start=40
 Len=1
 ZeroFill=Yes
 
@@ -1257,7 +1045,7 @@ Value=9;Don't know
 [Item]
 Label=B18_Orphanhood Father
 Name=ORPHANHOOD_FATHER
-Start=4
+Start=41
 Len=1
 ZeroFill=Yes
 
@@ -1271,7 +1059,7 @@ Value=9;Don't know
 [Item]
 Label=B19_A_Receive Social/ Grant
 Name=RECEIVE_SOCIAL_GRANT
-Start=5
+Start=42
 Len=1
 ZeroFill=Yes
 
@@ -1285,7 +1073,7 @@ Value=9;Don't know
 [Item]
 Label=B19_B_Type of Social Grants/ Pension
 Name=TYPE_SOCIAL_GRANTS_PENSION
-Start=6
+Start=43
 Len=11
 DataType=Alpha
 
@@ -1304,64 +1092,13 @@ Value='I          ';Other specify
 Value='J          ';None
 Value='K          ';Don't know
 
-[Record]
-Label=DISABILITY_REC
-Name=DISABILITY_REC
-RecordTypeValue='C'
-RecordLen=9
-
 [Item]
 Label=B20_A_Difficulties Seeing
 Name=DIFFICULTY_SEEING
-=======
-Label=ECD
-Name=ECD
-RecordTypeValue='C'
-RecordLen=25
-
-[Item]
-Label=C1a ECD Attendance (Y/ N)
-Name=ECD_YN
-Start=3
+Start=54
 Len=1
 ZeroFill=Yes
 
-[Item]
-Label=C1b ECD Attendance Type
-Name=ECD_TYPE
-Start=4
-Len=1
-ZeroFill=Yes
-
-[Item]
-Label=C2a Reason why not in ECD
-Name=REASON_NOT_IN_ECD
-Start=5
-Len=1
-ZeroFill=Yes
-
-[Item]
-Label=C2b Reason why not in ECD (Other)
-Name=REASON_NOT_IN_ECD_OTHER
-Start=6
-Len=20
-DataType=Alpha
-
-[Record]
-Label=Education
-Name=EDUCATION
-RecordTypeValue='D'
-RecordLen=13
-
-[Item]
-Label=D1a Literacy (Y/ N)
-Name=READ_AND_WRITE_YN
->>>>>>> Individual_C1_D3
-Start=3
-Len=1
-ZeroFill=Yes
-
-<<<<<<< HEAD
 [ValueSet]
 Label=B20_A_Difficulties Seeing
 Name=DIFFICULTY_SEEING_VS1
@@ -1374,7 +1111,7 @@ Value=9;Don't know
 [Item]
 Label=B20_B_Difficulties Hearing
 Name=DIFFICULTY_HEARING
-Start=4
+Start=55
 Len=1
 ZeroFill=Yes
 
@@ -1390,7 +1127,7 @@ Value=9;Don't know
 [Item]
 Label=B20_C_Difficulties Walking or Climbing Steps
 Name=DIFFICULTY_WALKING_CLIMBING_STEPS
-Start=5
+Start=56
 Len=1
 ZeroFill=Yes
 
@@ -1406,7 +1143,7 @@ Value=9;Don't know
 [Item]
 Label=B20_D_Difficulties Remembering or Concentrating
 Name=DIFFICULTY_REMEMBERING_CONCENTRATING
-Start=6
+Start=57
 Len=1
 ZeroFill=Yes
 
@@ -1422,7 +1159,7 @@ Value=9;Don't know
 [Item]
 Label=B20_E_Difficulty With Self-Care
 Name=DIFFICULTY_SELF_CARE
-Start=7
+Start=58
 Len=1
 ZeroFill=Yes
 
@@ -1438,30 +1175,10 @@ Value=9;Don't know
 [Item]
 Label=B20_F_Difficulty Communicating
 Name=DIFFICULTY_COMMUNICATING
-=======
-[Item]
-Label=D1b Literacy1
-Name=READ_AND_WRITE1
-Start=4
-Len=2
-ZeroFill=Yes
-
-[Item]
-Label=D1c Literacy2
-Name=READ_AND_WRITE2
-Start=6
-Len=2
-ZeroFill=Yes
-
-[Item]
-Label=D2a School Attendance (Y/ N)
-Name=ATTENDING_SCHOOL_YN
->>>>>>> Individual_C1_D3
-Start=8
+Start=59
 Len=1
 ZeroFill=Yes
 
-<<<<<<< HEAD
 [ValueSet]
 Label=B20_F_Difficulty Communicating
 Name=DIFFICULTY_COMMUNICATING_VS1
@@ -1474,16 +1191,10 @@ Value=9;Don't know
 [Item]
 Label=B21_Albinism Condition
 Name=ALBINISM
-=======
-[Item]
-Label=D2b School Attendance
-Name=ATTENDING_SCHOOL
->>>>>>> Individual_C1_D3
-Start=9
+Start=60
 Len=1
 ZeroFill=Yes
 
-<<<<<<< HEAD
 [ValueSet]
 Label=B21_Albinism Condition
 Name=ALBINISM_VS1
@@ -1491,16 +1202,10 @@ Value=1;Yes
 Value=2;No
 Value=9;Don't know
 
-[Record]
-Label=ICT_REC
-Name=ICT_REC
-RecordTypeValue='D'
-RecordLen=25
-
 [Item]
 Label=B22_ICT services
 Name=ICT_SERVICES
-Start=3
+Start=61
 Len=10
 DataType=Alpha
 
@@ -1519,7 +1224,7 @@ Value='H         ';Internet  (Facebook, Google, email etc.)
 [Item]
 Label=B23_Mobile Phone Ownership
 Name=MOBILE_PHONE_OWNERSHIP
-Start=13
+Start=71
 Len=1
 ZeroFill=Yes
 
@@ -1533,7 +1238,7 @@ Value=9;Don't know
 [Item]
 Label=B24_Type of mobile phone owned or used
 Name=TYPE_MOBILE_PHONE_OWNERSHIP
-Start=14
+Start=72
 Len=1
 ZeroFill=Yes
 
@@ -1548,37 +1253,20 @@ Value=9;Don’t know
 [Item]
 Label=B25_A_Use Any ICT Platform
 Name=USE_ICT_PLATFORMS
-Start=15
+Start=73
 Len=1
 
 [ValueSet]
 Label=B25_A_Use Any ICT Platform
 Name=USE_ICT_PLATFORMS_VS1
-<<<<<<< HEAD
->>>>>>> B8_B27
-=======
->>>>>>> origin/B8_B27
->>>>>>> Branch_F_G
 Value=1;Yes
 Value=2;No
 Value=9;Don't know
 
 [Item]
-<<<<<<< HEAD
-Label=Male last live birth still alive
-Name=LAST_LIVEBIRTH_ALIVE_MALE
-Start=44
-Len=1
-
-[Item]
-Label=Feale last live birth still alive
-Name=LAST_LIVEBIRTH_ALIVE_FEMALE
-Start=45
-Len=1
-=======
 Label=B25_B_Type of ICT Platform
 Name=TYPE_ICT_PLATFORM
-Start=16
+Start=74
 Len=10
 DataType=Alpha
 
@@ -1595,16 +1283,10 @@ Value='G         ';Television
 Value='H         ';Mobile Apps (e.g. NBC,NSA, Namibian Newspaper, etc.)
 Value='I         ';Don’t know
 
-[Record]
-Label=SPORTS ACTIVITIES_REC
-Name=SPORTS_ACTIVITIES_REC
-RecordTypeValue='E'
-RecordLen=4
-
 [Item]
 Label=B26_Sports Participation by Household Members
 Name=PARTICIPATION_IN_SPORTS
-Start=3
+Start=84
 Len=1
 ZeroFill=Yes
 
@@ -1620,39 +1302,91 @@ Value=9;Don't Know
 [Item]
 Label=B27_Primary Sport Activity Participated
 Name=PRIMARY_SPORT
-Start=4
+Start=85
 Len=1
 ZeroFill=Yes
-<<<<<<< HEAD
->>>>>>> B8_B27
-=======
->>>>>>> origin/B8_B27
->>>>>>> Branch_F_G
-=======
+
+[Item]
+Label=C1a ECD Attendance (Y/ N)
+Name=ECD_YN
+Start=86
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=C1b ECD Attendance Type
+Name=ECD_TYPE
+Start=87
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=C2a Reason why not in ECD
+Name=REASON_NOT_IN_ECD
+Start=88
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=C2b Reason why not in ECD (Other)
+Name=REASON_NOT_IN_ECD_OTHER
+Start=89
+Len=20
+DataType=Alpha
+
+[Item]
+Label=D1a Literacy (Y/ N)
+Name=READ_AND_WRITE_YN
+Start=109
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=D1b Literacy1
+Name=READ_AND_WRITE1
+Start=110
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=D1c Literacy2
+Name=READ_AND_WRITE2
+Start=112
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=D2a School Attendance (Y/ N)
+Name=ATTENDING_SCHOOL_YN
+Start=114
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=D2b School Attendance
+Name=ATTENDING_SCHOOL
+Start=115
+Len=1
+ZeroFill=Yes
+
 [Item]
 Label=D3 Educational Attainment (Major)
 Name=HIGHEST_GRADE_COMPLETED_MAJOR
-Start=10
+Start=116
 Len=2
 ZeroFill=Yes
 
 [Item]
 Label=D3 Educational Attainment (Minor)
 Name=HIGHEST_GRADE_COMPLETED_MINOR
-Start=12
+Start=118
 Len=2
 ZeroFill=Yes
->>>>>>> Individual_C1_D3
-=======
-Label=Labour Force
-Name=LABOUR_FORCE
-RecordTypeValue='1'
-RecordLen=221
 
 [Item]
 Label=E1 Work for pay/profit or helped in a family business
 Name=WORK_FOR_PAY_PROFIT_FAMILY_BUSINESS
-Start=3
+Start=120
 Len=1
 
 [ValueSet]
@@ -1665,7 +1399,7 @@ Value=3;Don't Know
 [Item]
 Label=E2 Work to return to even if absent due to vacation, illness, layoff
 Name=WORK_TO_RETURN_TO
-Start=4
+Start=121
 Len=1
 
 [ValueSet]
@@ -1678,7 +1412,7 @@ Value=3;Don't Know
 [Item]
 Label=E3 Subsistence Agricultural work
 Name=SUBSISTENCE_AGRICULTURAL_WORK
-Start=5
+Start=122
 Len=1
 
 [ValueSet]
@@ -1691,14 +1425,14 @@ Value=3;Don't Know
 [Item]
 Label=E4A Occupation Description
 Name=OCCUPATION_DESCRIPTION
-Start=6
+Start=123
 Len=100
 DataType=Alpha
 
 [Item]
 Label=E4B Occupation Code
 Name=OCCUPATION
-Start=106
+Start=223
 Len=4
 
 [ValueSet]
@@ -2052,14 +1786,14 @@ Value=9340;Freight handlers, loaders and unloaders
 [Item]
 Label=E5A Industry Description
 Name=INDUSTRY_DESCRIPTION
-Start=110
+Start=227
 Len=100
 DataType=Alpha
 
 [Item]
 Label=E5B Industry Code
 Name=INDUSTRY_CODE
-Start=210
+Start=327
 Len=4
 
 [ValueSet]
@@ -2488,7 +2222,7 @@ Value=9900;Activities of extraterritorial organizations and bodies
 [Item]
 Label=E6 Employment status
 Name=EMPLOYMENT_STATUS
-Start=214
+Start=331
 Len=2
 
 [ValueSet]
@@ -2511,7 +2245,7 @@ Value=99;Don’t know
 [Item]
 Label=E7 Job search
 Name=ACTIVELY_LOOKING_FOR_JOB
-Start=216
+Start=333
 Len=1
 
 [ValueSet]
@@ -2524,7 +2258,7 @@ Value=3;Don't Know
 [Item]
 Label=E8 Available for work
 Name=AVAILABLE_FOR_WORK
-Start=217
+Start=334
 Len=1
 
 [ValueSet]
@@ -2537,7 +2271,7 @@ Value=3;Don't Know
 [Item]
 Label=E9 Activity Status
 Name=ACTIVITY_STATUS
-Start=218
+Start=335
 Len=2
 
 [ValueSet]
@@ -2556,7 +2290,7 @@ Value=9;Don’t know
 [Item]
 Label=E10 Land Ownership
 Name=LAND_OWNERSHIP_YN
-Start=220
+Start=337
 Len=1
 
 [ValueSet]
@@ -2569,7 +2303,7 @@ Value=3;Don't Know
 [Item]
 Label=E11 Type of Land Ownership
 Name=LAND_OWNERSHIP_TYPE
-Start=221
+Start=338
 Len=1
 
 [ValueSet]
@@ -2580,4 +2314,221 @@ Value=2;Commercial
 Value=3;Communal
 Value=4;Traditional
 Value=9;Don't Know
->>>>>>> Ind_Labor_force
+
+[Item]
+Label=F1a Number of male and female live births the woman ever had
+Name=LIVEBIRTH_TOTAL
+Start=339
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F1a Number of male and female live births the woman ever had
+Name=LIVEBIRTH_TOTAL_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F1b Male live births the woman ever had
+Name=LIVEBIRTH_TOTAL_MALE
+Start=341
+Len=2
+
+[Item]
+Label=F1c Female live births the woman ever had
+Name=LIVEBIRTH_TOTAL_FEMALE
+Start=343
+Len=2
+
+[Item]
+Label=F1d Male live births the woman ever had attended by skilled personel
+Name=MALE_ATTENDED_BY_SKILLED_PERSONEL
+Start=345
+Len=2
+
+[Item]
+Label=F1e Female live births the woman ever had attended by skilled personel
+Name=FEMALE_ATTENDED_BY_SKILLED_PERSONEL
+Start=347
+Len=2
+
+[Item]
+Label=F2a Number of biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_PRESENT
+Start=349
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F2a Number of biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_PRESENT_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F2bMale biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_PRESENT
+Start=351
+Len=2
+
+[Item]
+Label=F2c female biological children that were Present on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_PRESENT
+Start=353
+Len=2
+
+[Item]
+Label=F3a Number of biological children that were elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO__CHILDREN_ELSEWHERE
+Start=355
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F3a Number of biological children that were elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO__CHILDREN_ELSEWHERE_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F3b Male biological children that were Elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_ELSEWHERE
+Start=357
+Len=2
+
+[Item]
+Label=F3c female biological children that were Elsewhere on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_ELSEWHRE
+Start=359
+Len=2
+
+[Item]
+Label=F4a Number of biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE
+Start=361
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F4a Number of biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_CHILDREN_NOT_ALIVE_VS1
+Value=0:30;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F4b Male bilogical children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_MALE_CHILDREN_NOT_ALIVE
+Start=363
+Len=2
+
+[Item]
+Label=F4c female biological children who are no longer alive on the night of 29 August 2021
+Name=NUM_OF_BIO_FEMALE_CHILDREN_NOT_ALIVE
+Start=365
+Len=2
+
+[Item]
+Label=F5 Age of the woman at her first live birth
+Name=AGE_AT_FIRST_LIVEBIRTH
+Start=367
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F5 Age of the woman at her first live birth
+Name=AGE_AT_FIRST_LIVEBIRTH_VS1
+Value=8:54;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F6a Month of the woman’s last live birth
+Name=MONTH_OF_LAST_LIVEBIRTH
+Start=369
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=F6a Month of the woman’s last live birth
+Name=MONTH_OF_LAST_LIVEBIRTH_VS1
+Value=1:12;Valid Range
+Value=99;Don't Know
+
+[Item]
+Label=F6b Year of the woman’s last live birth
+Name=YEAR_OF_LAST_LIVEBIRTH
+Start=371
+Len=4
+
+[ValueSet]
+Label=F6b Year of the woman’s last live birth
+Name=YEAR_OF_LAST_LIVEBIRTH_VS1
+Value=1975:2021;Valid Range
+Value=9999;Don't Know
+
+[Item]
+Label=F7a The type of birth for the woman’s last live birth
+Name=BIRTH_TYPE
+Start=375
+Len=1
+
+[ValueSet]
+Label=F7a The type of birth for the woman’s last live birth
+Name=BIRTH_TYPE_VS1
+Value=1;Single
+Value=2;Multiple
+Value=9;Don't know
+
+[Item]
+Label=F7b Male birth for the woman's last live birth
+Name=BIRTH_TYPE_MALE
+Start=376
+Len=1
+
+[Item]
+Label=F7cFemale birth of the woman's last live bith
+Name=BIRTH_TYPE_FEMALE
+Start=377
+Len=1
+
+[Item]
+Label=F8a The sex of the last live birth
+Name=SEX_OF_LAST_LIVEBIRTH
+Start=378
+Len=1
+
+[ValueSet]
+Label=F8a The sex of the last live birth
+Name=SEX_OF_LAST_LIVEBIRTH_VS1
+Value=1;Male
+Value=2;Female
+Value=9;Don't know
+
+[Item]
+Label=F8b Male last live birth
+Name=LAST_LIVEBIRTH_MALE
+Start=379
+Len=1
+
+[Item]
+Label=F8c Female last live birth
+Name=LAST_LIVEBIRTH_FEMALE
+Start=380
+Len=1
+
+[Item]
+Label=F9a The last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE
+Start=381
+Len=1
+
+[Item]
+Label=F9b Male last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE_MALE
+Start=382
+Len=1
+
+[Item]
+Label=F9c Female last live birth still alive
+Name=LAST_LIVEBIRTH_ALIVE_FEMALE
+Start=383
+Len=1
