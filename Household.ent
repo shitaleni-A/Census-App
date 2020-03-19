@@ -1,7 +1,7 @@
 ﻿[CSPro Application]
 Version=CSPro 7.3
 Label=HOUSEHOLD
-Name=
+Name=HOUSEHOLD
 AppType=DataEntry
 [AppCode]
 File=.\Household.ent.apc
@@ -11,3 +11,5 @@ File=.\Household.ent.mgf
 File=.\Household.ent.qsf
 [Forms]
 File=.\Household.fmf
+[Dictionary Types]
+Dict-Type=.\Household.dcf,Input,.\Household.fmf

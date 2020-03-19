@@ -1,7 +1,7 @@
 ﻿[CSPro Application]
 Version=CSPro 7.3
 Label=INDIVIDUAL
-Name=
+Name=INDIVIDUAL
 AppType=DataEntry
 [AppCode]
 File=.\Individual.ent.apc
@@ -11,3 +11,5 @@ File=.\Individual.ent.mgf
 File=.\Individual.ent.qsf
 [Forms]
 File=.\Individual.fmf
+[Dictionary Types]
+Dict-Type=.\Individual.dcf,Input,.\Individual.fmf

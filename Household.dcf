@@ -21,10 +21,458 @@ Start=2
 Len=1
 
 [Record]
+Label=Housing Characteristics
+Name=DWELLING_REC
+RecordTypeValue='H'
+RecordLen=366
+
+[Item]
+Label=H1a Type of housing unit
+Name=HOUSING_TYPE
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H1b Type of housing unit (Other)
+Name=HOUSING_TYPE_OTHER
+Start=5
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H2a Dwelling unit ownership
+Name=DWELLING_OWNERSHIP
+Start=25
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H2b Dwelling unit ownership (Other)
+Name=DWELLING_OWNERSHIP_OTHER
+Start=26
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H3a Materials for roof
+Name=MATERIALS_ROOF
+Start=46
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H3b Materials for roof (Other)
+Name=MATERIALS_ROOF_OTHER
+Start=48
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H4a Materials for outer walls
+Name=MATERIALS_WALLS
+Start=68
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H4b Materials for outer walls (Other)
+Name=MATERIALS_WALLS_OTHER
+Start=70
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H5a Materials for the Floor
+Name=MATERIALS_FLOOR
+Start=90
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H5b Materials for the Floor (Other)
+Name=MATERIALS_FLOOR_OTHER
+Start=91
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H6 Rooms for Sleeping
+Name=ROOMS_SLEEPING
+Start=111
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H7a Main Source of water for cooking and drinking
+Name=SOURCE_WATER
+Start=113
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H7b Main Source of water for cooking and drinking (Other)
+Name=SOURCE_WATER_OTHER
+Start=115
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H8a Main source of energy for cooking
+Name=ENERGY_COOKING
+Start=135
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H8b Main source of energy for cooking (Other)
+Name=ENERGY_COOKING_OTHER
+Start=137
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H9a Main source of energy for heating
+Name=ENERGY_HEATING
+Start=157
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H9b Main source of energy for heating (Other)
+Name=ENERGY_HEATING_OTHER
+Start=159
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H10a Main source of energy for lighting
+Name=ENERGY_LIGHTING
+Start=179
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H10b Main source of energy for lighting (Other)
+Name=ENERGY_LIGHTING_OTHER
+Start=181
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H11a Main type of toilet facility
+Name=TOILET_FACILITY
+Start=201
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H11b Main type of toilet facility (Other)
+Name=TOILET_FACILITY_OTHER
+Start=202
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H11c Flush toilet connectivity
+Name=FLUSH_TOILET_CONNECTIVITY
+Start=222
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H12a Main mean of waste disposal
+Name=WASTE_DISPOSAL
+Start=223
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H12b Main mean of waste disposal (Other)
+Name=WASTE_DISPOSAL_OTHER
+Start=224
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H13a Main language spoken (Major)
+Name=LANGUAGE_SPOKEN_MAJOR
+Start=244
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H13b Main language spoken (Minor)
+Name=LANGUAGE_SPOKEN_MINOR
+Start=246
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H14a Main source of income
+Name=INCOME_SOURCE
+Start=248
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H14b Main source of income (Other)
+Name=INCOME_SOURCE_OTHER
+Start=250
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H15a Car
+Name=CAR
+Start=270
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=H15a Car
+Name=CAR_VS1
+Value=1;Own
+Value=2;Access
+Value=3;None
+
+[Item]
+Label=H15b Motorbike
+Name=MOTORBIKE
+Start=271
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15c Bicycle
+Name=BICYCLE
+Start=272
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15d Animal-drawn Cart
+Name=ANIMAL_DRAWN_CART
+Start=273
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15e Truck
+Name=TRUCK
+Start=274
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15f Boat
+Name=BOAT
+Start=275
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15g Pick-up Truck (Bakkie)
+Name=PICK_UP_TRUCK
+Start=276
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15h Jet/ Plane
+Name=JET_PLANE
+Start=277
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15i Bus/ Mini-bus
+Name=BUS_MINIBUS
+Start=278
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15j Tractor
+Name=TRACTOR
+Start=279
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15k Radio
+Name=RADIO
+Start=280
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15l Television
+Name=TELEVISION
+Start=281
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15m TV Decoder (e.g. DSTV)
+Name=TV_DECODER
+Start=282
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15n Telephone (Fixed)
+Name=TELEPHONE_FIXED
+Start=283
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15o Telephone (Mobile)
+Name=TELEPHONE_MOBILE
+Start=284
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15p Home Internet Connectivity
+Name=HOME_INTERNET
+Start=285
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15q Computer/ Laptop
+Name=COMPUTER_LAPTOP
+Start=286
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15r Refrigerator/ Freezer
+Name=REFRIGERATOR_FREEZER
+Start=287
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15s Stove
+Name=STOVE
+Start=288
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15t Microwave
+Name=MICROWAVE
+Start=289
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15u Washing Machine
+Name=WASHING_MACHINE
+Start=290
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H15v Sewing/ Knitting Machine
+Name=SEWING_KNITTING_MACHINE
+Start=291
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H16 Land Ownership
+Name=LAND_OWNERSHIP
+Start=292
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H17a Legal right the household have on ownership of land
+Name=LEGAL_RIGHTS
+Start=293
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H17b Legal right the household have on ownership of land (Other)
+Name=LEGAL_RIGHTS_OTHER
+Start=294
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H18 Own account agricultural production activities (past 12 months)
+Name=OWN_AGRICULTURAL_PRODUCTION
+Start=314
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H19a Type of own account agricultural activities
+Name=TYPE_AGRICULTURAL_PRODUCTION
+Start=315
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=H19b Type of own account agricultural activities (Other)
+Name=TYPE_AGRICULTURAL_PRODUCTION_OTHER
+Start=316
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H20a Number of livestock/ (Cattle)
+Name=NUMBER_CATTLE
+Start=336
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H20a Number of livestock/ (Goats)
+Name=NUMBER_GOATS
+Start=338
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H20a Number of livestock/ (Sheep)
+Name=NUMBER_SHEEP
+Start=340
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H20a Number of livestock/ (Chickens)
+Name=NUMBER_CHICKENS
+Start=342
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=H20b Number of livestock/ (Other)
+Name=NUMBER_OTHER
+Start=344
+Len=20
+DataType=Alpha
+
+[Item]
+Label=H20c Size of land for crops
+Name=CROP_LAND_SIZE
+Start=364
+Len=2
+ZeroFill=Yes
+
+[Item]
 Label=Household Record
 Name=HOUSEHOLD_REC
-RecordTypeValue='1'
-RecordLen=2
+Start=366
+Len=1
+ZeroFill=Yes
 
 [Record]
 Label=Mortality
@@ -155,4 +603,4 @@ Name=PREGNANCY_RELATED_DEATH_VS2
 Value=1;While pregnant
 Value=2;During childbirth
 Value=3;Within 6 weeks of the end of a pregnancy or child birth
-Value=9;Don’t Know
+Value=9 0 0;Don’t Know

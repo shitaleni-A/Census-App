@@ -22,6 +22,7 @@ Len=1
 
 [Record]
 <<<<<<< HEAD
+<<<<<<< HEAD
 Label=Individual Record
 Name=INDIVIDUAL_REC
 RecordTypeValue='1'
@@ -1311,10 +1312,55 @@ RecordLen=9
 [Item]
 Label=B20_A_Difficulties Seeing
 Name=DIFFICULTY_SEEING
+=======
+Label=ECD
+Name=ECD
+RecordTypeValue='C'
+RecordLen=25
+
+[Item]
+Label=C1a ECD Attendance (Y/ N)
+Name=ECD_YN
 Start=3
 Len=1
 ZeroFill=Yes
 
+[Item]
+Label=C1b ECD Attendance Type
+Name=ECD_TYPE
+Start=4
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=C2a Reason why not in ECD
+Name=REASON_NOT_IN_ECD
+Start=5
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=C2b Reason why not in ECD (Other)
+Name=REASON_NOT_IN_ECD_OTHER
+Start=6
+Len=20
+DataType=Alpha
+
+[Record]
+Label=Education
+Name=EDUCATION
+RecordTypeValue='D'
+RecordLen=13
+
+[Item]
+Label=D1a Literacy (Y/ N)
+Name=READ_AND_WRITE_YN
+>>>>>>> Individual_C1_D3
+Start=3
+Len=1
+ZeroFill=Yes
+
+<<<<<<< HEAD
 [ValueSet]
 Label=B20_A_Difficulties Seeing
 Name=DIFFICULTY_SEEING_VS1
@@ -1391,10 +1437,30 @@ Value=9;Don't know
 [Item]
 Label=B20_F_Difficulty Communicating
 Name=DIFFICULTY_COMMUNICATING
+=======
+[Item]
+Label=D1b Literacy1
+Name=READ_AND_WRITE1
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=D1c Literacy2
+Name=READ_AND_WRITE2
+Start=6
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=D2a School Attendance (Y/ N)
+Name=ATTENDING_SCHOOL_YN
+>>>>>>> Individual_C1_D3
 Start=8
 Len=1
 ZeroFill=Yes
 
+<<<<<<< HEAD
 [ValueSet]
 Label=B20_F_Difficulty Communicating
 Name=DIFFICULTY_COMMUNICATING_VS1
@@ -1407,10 +1473,16 @@ Value=9;Don't know
 [Item]
 Label=B21_Albinism Condition
 Name=ALBINISM
+=======
+[Item]
+Label=D2b School Attendance
+Name=ATTENDING_SCHOOL
+>>>>>>> Individual_C1_D3
 Start=9
 Len=1
 ZeroFill=Yes
 
+<<<<<<< HEAD
 [ValueSet]
 Label=B21_Albinism Condition
 Name=ALBINISM_VS1
@@ -1555,3 +1627,18 @@ ZeroFill=Yes
 =======
 >>>>>>> origin/B8_B27
 >>>>>>> Branch_F_G
+=======
+[Item]
+Label=D3 Educational Attainment (Major)
+Name=HIGHEST_GRADE_COMPLETED_MAJOR
+Start=10
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=D3 Educational Attainment (Minor)
+Name=HIGHEST_GRADE_COMPLETED_MINOR
+Start=12
+Len=2
+ZeroFill=Yes
+>>>>>>> Individual_C1_D3
