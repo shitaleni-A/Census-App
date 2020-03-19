@@ -1,8 +1,20 @@
 ﻿[CSPro Application]
 Version=CSPro 7.3
 Label=INDIVIDUAL
-Name=
+Name=INDIVIDUAL
 AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
 [AppCode]
 File=.\Individual.ent.apc
 [Message]
@@ -11,3 +23,5 @@ File=.\Individual.ent.mgf
 File=.\Individual.ent.qsf
 [Forms]
 File=.\Individual.fmf
+[Dictionary Types]
+Dict-Type=.\Individual.dcf,Input,.\Individual.fmf
